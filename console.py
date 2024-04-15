@@ -46,10 +46,12 @@ class HBNBCommand(cmd.Cmd):
                 else:
                     try:
                         value = int(value)
-                    except:
+                    except Exception as e:
+                        return e
                         try:
                             value = float(value)
-                        except:
+                        except Exception as e:
+                            return e
                             continue
                 new_dict[key] = value
         return new_dict
