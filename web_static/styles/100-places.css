@@ -82,3 +82,63 @@
 .user {
   margin-bottom: 1.5%;
 }
+
+.amenities
+{
+    margin-top: 40px;
+   
+}
+.amenities h2
+{
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #DDDDDD;
+    font-weight: bold;
+    
+}
+
+.amenities li, #tv{
+    list-style-image: url("../images/icon_tv.png");
+    list-style-type: none;
+}
+
+.amenities li, #wifi{
+    list-style-image: url("../images/icon_wifi.png");
+    list-style-type: none;
+}
+.amenities li, #pets{
+    list-style-image: url("../images/icon_pets.png");
+    list-style-type: none;
+}
+
+.reviews
+{
+    margin-top: 40px;
+    margin-bottom: 1.5%;
+    
+}
+
+.reviews h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    font-weight: bold;
+    text-align: left;
+}
+
+.reviews ul{
+ list-style-type: none;
+ text-align: left;
+ margin:0;
+ padding:0;
+}
+
+.reviews ul h3{
+    font-size: 14px;
+}
+
+.reviews ul p{
+    font-size: 12px;
+}
+
+
+
