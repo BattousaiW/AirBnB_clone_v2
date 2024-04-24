@@ -46,7 +46,7 @@ button:hover {
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
-.search_amenities {
+.amenities {
     height: 100%;
     width: 25%;
 }
@@ -58,7 +58,7 @@ button:hover {
     background: #FAFAFA;
     padding-bottom: 25px;
 }
-.search_amenities .popover {
+.amenities .popover {
     padding: 20px 0;
     margin-left: -5px;
     margin-top: 1%;
@@ -69,7 +69,7 @@ button:hover {
 .popover ul {
     list-style-type: none;
 }
-.search_amenities:hover .popover,
+.amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
 }
